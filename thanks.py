@@ -99,6 +99,50 @@ splash.append(triangle)
 roundrect = RoundRect(122, 79, 12, 20, 6, fill=0xcf3c1f, outline=0xcf3c1f, stroke=6)
 splash.append(roundrect)
 
+circle = Circle(120, 32, 10, fill=0xa87728, outline=0xa87728)
+splash.append(circle)
+
+circle = Circle(120, 27, 10, fill=0xa87728, outline=0xa87728)
+splash.append(circle)
+
+circle = Circle(120, 22, 10, fill=0xa87728, outline=0xa87728)
+splash.append(circle)
+
+circle = Circle(100, 40, 10, fill=0xc48114, outline=0xc48114)
+splash.append(circle)
+
+circle = Circle(95, 35, 10, fill=0xc48114, outline=0xc48114)
+splash.append(circle)
+
+circle = Circle(90, 30, 10, fill=0xc48114, outline=0xc48114)
+splash.append(circle)
+
+circle = Circle(140, 45, 10, fill=0xc48114, outline=0xc48114)
+splash.append(circle)
+
+circle = Circle(145, 40, 10, fill=0xc48114, outline=0xc48114)
+splash.append(circle)
+
+circle = Circle(150, 35, 10, fill=0xc48114, outline=0xc48114)
+splash.append(circle)
+
+circle = Circle(85, 60, 10, fill=0xa87728, outline=0xa87728)
+splash.append(circle)
+
+circle = Circle(80, 55, 10, fill=0xa87728, outline=0xa87728)
+splash.append(circle)
+
+circle = Circle(75, 50, 10, fill=0xa87728, outline=0xa87728)
+splash.append(circle)
+
+circle = Circle(152, 60, 10, fill=0xa87728, outline=0xa87728)
+splash.append(circle)
+
+circle = Circle(157, 55, 10, fill=0xa87728, outline=0xa87728)
+splash.append(circle)
+
+circle = Circle(162, 50, 10, fill=0xa87728, outline=0xa87728)
+splash.append(circle)
 
 while True:
     pass
