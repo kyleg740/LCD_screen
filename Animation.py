@@ -15,6 +15,7 @@ FONTSCALE = 2
 BACKGROUND_COLOR = 0xebd234  
 FOREGROUND_COLOR = 0xebd234 
 TEXT_COLOR = 0xebd234
+WHITE = 0xFFFFFF
 
 displayio.release_displays()
 
@@ -33,6 +34,7 @@ from adafruit_display_shapes.roundrect import RoundRect
 from adafruit_display_shapes.triangle import Triangle
 from adafruit_display_shapes.line import Line
 from adafruit_display_shapes.polygon import Polygon
+
 
 splash = displayio.Group()
 display.root_group = splash
@@ -144,3 +146,7 @@ while True:
         direction_x *= +1
     circle2.x += (velocity_x * direction_x)
     time.sleep(.15)
+    circle.outline = BACKGROUND_COLOR
+    time.sleep(0.1)
+    circle.outline = WHITE
+    time.sleep(0.1)
